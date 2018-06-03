@@ -1,0 +1,5 @@
+also use a global '.ycm_extra_conf.py' that will search for a clang compilation database and use it to figure out how the file you're editing is compiled and provide you with completions based on that.
+
+To get completion working for a CMake project with my setup all I have to do is create a build directroy and invoke CMake with -DCMAKE_EXPORT_COMPILE_COMMANDS=y so that it'll generate a 'compile_commands.json' file.
+
+	See https://asciinema.org/a/mNFe12ncNedOkG7u8U8ly1RKg for how it looks like.
